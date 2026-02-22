@@ -28,6 +28,9 @@
             mask-image: linear-gradient(to bottom, transparent, black 20%, black 80%, transparent);
         }
         /* Custom Hover Reveal Effect */
+        .service-card {
+            text-decoration: none;
+        }
         .service-card:hover .service-bg {
             opacity: 0.2;
             transform: scale(1.05);
@@ -227,7 +230,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 
                 <!-- Service Card 1: Mecânica -->
-                <div class="service-card group relative h-80 w-full overflow-hidden border border-white/10 bg-neutral-900/50 hover:border-yellow-500/50 transition-all duration-500">
+                <a href="/mecanica.html" class="service-card group relative h-80 w-full overflow-hidden border border-white/10 bg-neutral-900/50 hover:border-yellow-500/50 transition-all duration-500 cursor-pointer block">
                     <!-- Hover Reveal Image -->
                     <div class="service-bg absolute inset-0 bg-[url('https://images.unsplash.com/photo-1487754180451-c456f719a1fc?q=80&w=1000&auto=format&fit=crop')] bg-cover bg-center opacity-0 transition-all duration-500 ease-out"></div>
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-transparent opacity-90"></div>
@@ -251,10 +254,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
 
                 <!-- Service Card 2: Funilaria -->
-                <div class="service-card group relative h-80 w-full overflow-hidden border border-white/10 bg-neutral-900/50 hover:border-yellow-500/50 transition-all duration-500">
+                <a href="/funilaria.html" class="service-card group relative h-80 w-full overflow-hidden border border-white/10 bg-neutral-900/50 hover:border-yellow-500/50 transition-all duration-500 cursor-pointer block">
                     <div class="service-bg absolute inset-0 bg-[url('https://images.unsplash.com/photo-1625047509168-a7026f36de04?q=80&w=1000&auto=format&fit=crop')] bg-cover bg-center opacity-0 transition-all duration-500 ease-out"></div>
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-transparent opacity-90"></div>
                     
@@ -277,10 +280,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
 
                 <!-- Service Card 3: Estética -->
-                <div class="service-card group relative h-80 w-full overflow-hidden border border-white/10 bg-neutral-900/50 hover:border-yellow-500/50 transition-all duration-500">
+                <a href="/estetica.html" class="service-card group relative h-80 w-full overflow-hidden border border-white/10 bg-neutral-900/50 hover:border-yellow-500/50 transition-all duration-500 cursor-pointer block">
                     <div class="service-bg absolute inset-0 bg-[url('https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=1000&auto=format&fit=crop')] bg-cover bg-center opacity-0 transition-all duration-500 ease-out"></div>
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-transparent opacity-90"></div>
                     
@@ -303,10 +306,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
 
                 <!-- Service Card 4: Blindados -->
-                <div class="service-card group relative h-80 w-full overflow-hidden border border-white/10 bg-neutral-900/50 hover:border-yellow-500/50 transition-all duration-500">
+                <a href="/blindados.html" class="service-card group relative h-80 w-full overflow-hidden border border-white/10 bg-neutral-900/50 hover:border-yellow-500/50 transition-all duration-500 cursor-pointer block">
                     <div class="service-bg absolute inset-0 bg-[url('https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=1000&auto=format&fit=crop')] bg-cover bg-center opacity-0 transition-all duration-500 ease-out"></div>
                     <div class="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-transparent opacity-90"></div>
                     
@@ -329,7 +332,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
 
             </div>
         </div>
